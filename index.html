@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Saasly — Analytics for Growth</title>
+  <meta name="description" content="Advanced analytics to grow your business — AI-powered insights, seamless integrations, and enterprise-grade security for data-driven teams." />
+  
+  <!-- SEO Meta Tags -->
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="analytics, business intelligence, AI insights, data visualization, enterprise analytics">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Saasly — Analytics for Growth">
+  <meta property="og:description" content="Advanced analytics platform with AI-powered insights, seamless integrations, and enterprise-grade security.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/images/og-image.png">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Saasly — Analytics for Growth">
+  <meta name="twitter:description" content="Transform your business with AI-powered analytics and real-time insights.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  <!-- Preconnect for Performance -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Saasly",
+      "applicationCategory": "BusinessApplication",
+      "description": "Advanced analytics platform with AI-powered insights for business growth",
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "0",
+        "highPrice": "29",
+        "offerCount": "3"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1247"
+      }
+    }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#home"><span class="logo-dot"></span><strong>Saasly</strong></a>
+      </div>
+      <nav class="nav" id="main-nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-ghost hide-md" id="demo-btn">Demo</button>
+        <button class="btn btn-primary" id="signup-btn">Sign Up</button>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobile-nav" class="mobile-nav hidden">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#features" class="mobile-link">Features</a>
+      <a href="#pricing" class="mobile-link">Pricing</a>
+      <a href="#testimonials" class="mobile-link">Testimonials</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <div class="mobile-cta">
+        <button class="btn btn-primary fullwidth">Sign Up</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1 class="hero-title">Advanced analytics to grow your business</h1>
+          <p class="hero-sub">Leverage data-driven insights and automated recommendations to optimize performance and scale faster.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#pricing">Start Now</a>
+            <a class="btn btn-outline" href="#demo">Free Trial →</a>
+          </div>
+
+          <ul class="hero-features">
+            <li>AI-driven insights</li>
+            <li>Seamless integrations</li>
+            <li>Enterprise-grade security</li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <!-- polished dashboard card -->
+          <div class="dashboard-card" role="region" aria-label="Analytics dashboard mockup">
+            <div class="dash-top">
+              <div>
+                <p class="muted">Analytics Overview</p>
+                <p class="muted small">October 2025</p>
+              </div>
+              <div class="badge">Pro</div>
+            </div>
+
+            <div class="dash-stats">
+              <div class="stat">
+                <p class="stat-label">Credit Balance</p>
+                <p class="stat-value">$25,215</p>
+                <p class="stat-small">+3.2% since last week</p>
+              </div>
+
+              <div class="stat">
+                <p class="stat-label">Earnings</p>
+                <p class="stat-value">$801.5</p>
+                <p class="stat-small">+1.1% since last week</p>
+              </div>
+            </div>
+
+            <div class="dash-chart" id="dash-chart" aria-hidden="true">
+              <!-- bars injected via HTML for easier responsive CSS sizing -->
+              <div class="chart-bars">
+                <div class="bar" data-value="40" aria-label="data bar 40%"></div>
+                <div class="bar" data-value="70" aria-label="data bar 70%"></div>
+                <div class="bar" data-value="60" aria-label="data bar 60%"></div>
+                <div class="bar" data-value="90" aria-label="data bar 90%"></div>
+                <div class="bar" data-value="50" aria-label="data bar 50%"></div>
+              </div>
+            </div>
+
+            <div class="dash-footer">
+              <div class="small">Active users: <strong>3,425</strong></div>
+              <div class="small">Server status: <span class="status-dot online"></span> Online</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title">Powerful features built for growth</h2>
+        <p class="section-sub">Everything you need to track, analyze and optimize your product growth — in one place.</p>
+
+        <div class="cards-grid">
+          <article class="feature-card">
+            <h3>Smart Insights</h3>
+            <p>AI models surface trends and recommendations so your team can act faster.</p>
+          </article>
+
+          <article class="feature-card">
+            <h3>Seamless Integration</h3>
+            <p>Connect databases, CRMs and analytics tools with one-click connectors.</p>
+          </article>
+
+          <article class="feature-card">
+            <h3>Data Privacy</h3>
+            <p>End-to-end encryption, SOC2-ready controls, SSO and RBAC for teams.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section alt">
+      <div class="container">
+        <div class="pricing-header">
+          <h2 class="section-title">Simple pricing. No surprises.</h2>
+          <div class="billing-toggle" aria-hidden="false">
+            <span class="muted">Monthly</span>
+            <label class="switch">
+              <input id="billing-toggle" type="checkbox" />
+              <span class="slider"></span>
+            </label>
+            <span class="muted">Annual <small class="accent">save 20%</small></span>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="price-card">
+            <div class="price-top"><h3>Starter</h3><p class="muted">For individuals</p></div>
+            <div class="price-amount"><span class="currency">$</span><span class="amount" data-month="0" data-year="0">0</span><span class="period">/mo</span></div>
+            <ul class="price-features">
+              <li><span class="feature-check">✓</span> Basic analytics dashboard</li>
+              <li><span class="feature-check">✓</span> 1 data connector</li>
+              <li><span class="feature-check">✓</span> Up to 10,000 events/mo</li>
+              <li><span class="feature-check">✓</span> Email support (24h response)</li>
+              <li><span class="feature-x">×</span> Custom reports</li>
+              <li><span class="feature-x">×</span> API access</li>
+            </ul>
+            <button class="btn btn-outline fullwidth">Get Started</button>
+          </div>
+
+          <div class="price-card featured">
+            <div class="ribbon">Most popular</div>
+            <div class="price-top"><h3>Pro</h3><p class="muted">Growing teams</p></div>
+            <div class="price-amount"><span class="currency">$</span><span class="amount" data-month="29" data-year="23">29</span><span class="period">/mo</span></div>
+            <ul class="price-features">
+              <li><span class="feature-check">✓</span> Everything in Starter</li>
+              <li><span class="feature-check">✓</span> Advanced analytics & AI insights</li>
+              <li><span class="feature-check">✓</span> Up to 100,000 events/mo</li>
+              <li><span class="feature-check">✓</span> Priority support (4h response)</li>
+              <li><span class="feature-check">✓</span> Custom report builder</li>
+              <li><span class="feature-check">✓</span> Full API access</li>
+              <li><span class="feature-check">✓</span> Team collaboration tools</li>
+            </ul>
+            <button class="btn btn-primary fullwidth">Start Free Trial</button>
+          </div>
+
+          <div class="price-card">
+            <div class="price-top"><h3>Enterprise</h3><p class="muted">Custom solutions</p></div>
+            <div class="price-amount"><span class="currency">Contact</span></div>
+            <ul class="price-features">
+              <li><span class="feature-check">✓</span> Everything in Pro</li>
+              <li><span class="feature-check">✓</span> Unlimited events & storage</li>
+              <li><span class="feature-check">✓</span> Custom AI model training</li>
+              <li><span class="feature-check">✓</span> 24/7 dedicated support</li>
+              <li><span class="feature-check">✓</span> Custom SLA & uptime guarantee</li>
+              <li><span class="feature-check">✓</span> SSO & advanced security</li>
+              <li><span class="feature-check">✓</span> Dedicated success manager</li>
+              <li><span class="feature-check">✓</span> Custom integrations</li>
+            </ul>
+            <button class="btn btn-outline fullwidth">Contact Sales</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <h2 class="section-title">Loved by teams worldwide</h2>
+        <div class="testimonial-wrap">
+          <div class="testimonial" data-index="0">
+            <p class="quote">"Saasly transformed how our product team makes decisions — the AI insights are unbelievably accurate."</p>
+            <p class="author">— Priya S., Product Lead</p>
+          </div>
+          <div class="testimonial hidden" data-index="1">
+            <p class="quote">"We cut time-to-insight by 60% and our conversions improved across the funnel."</p>
+            <p class="author">— Arun K., Growth</p>
+          </div>
+          <div class="testimonial hidden" data-index="2">
+            <p class="quote">"Excellent onboarding and enterprise-grade security — recommended for scaleups."</p>
+            <p class="author">— Nina R., CTO</p>
+          </div>
+
+          <div class="test-controls">
+            <button class="btn btn-ghost" id="prev-test">‹</button>
+            <button class="btn btn-ghost" id="next-test">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="section trusted-by">
+      <div class="container">
+        <p class="trusted-by-title">Trusted by innovative teams</p>
+        <div class="logo-grid">
+          <div class="logo-item" title="TechCorp">
+            <svg viewBox="0 0 100 40" class="company-logo">
+              <rect width="100" height="40" fill="rgba(255,255,255,0.1)"/>
+              <text x="50" y="25" text-anchor="middle" fill="white">TechCorp</text>
+            </svg>
+          </div>
+          <div class="logo-item" title="Innovate AI">
+            <svg viewBox="0 0 100 40" class="company-logo">
+              <rect width="100" height="40" fill="rgba(255,255,255,0.1)"/>
+              <text x="50" y="25" text-anchor="middle" fill="white">Innovate AI</text>
+            </svg>
+          </div>
+          <div class="logo-item" title="DataFlow">
+            <svg viewBox="0 0 100 40" class="company-logo">
+              <rect width="100" height="40" fill="rgba(255,255,255,0.1)"/>
+              <text x="50" y="25" text-anchor="middle" fill="white">DataFlow</text>
+            </svg>
+          </div>
+          <div class="logo-item" title="CloudScale">
+            <svg viewBox="0 0 100 40" class="company-logo">
+              <rect width="100" height="40" fill="rgba(255,255,255,0.1)"/>
+              <text x="50" y="25" text-anchor="middle" fill="white">CloudScale</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-sub">Find quick answers to common questions about Saasly</p>
+        
+        <div class="faq-grid">
+          <details class="faq-item">
+            <summary>How does the AI-powered analytics work?</summary>
+            <p>Our AI models analyze your data in real-time, identifying patterns and trends that humans might miss. The system learns from your specific business context to provide increasingly accurate insights over time.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>What kind of security measures do you have in place?</summary>
+            <p>We implement enterprise-grade security including end-to-end encryption, SOC2 compliance, and regular security audits. Your data is protected by the same standards used by major financial institutions.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can I try Saasly before committing?</summary>
+            <p>Yes! We offer a 14-day free trial on our Pro plan with full access to all features. No credit card required to start your trial.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>How easy is it to get started?</summary>
+            <p>Very easy! Our one-click connectors can import your data in minutes, and our onboarding team provides free setup assistance for all plans.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container small">
+        <h2 class="section-title">Get in touch</h2>
+        <p class="section-sub">Questions? Want a demo? Send us a short message.</p>
+
+        <form id="contact-form" class="contact-form" action="#" onsubmit="return false;">
+          <div class="form-grid">
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            <input type="email" id="email" name="email" placeholder="Email address" required>
+            <textarea id="message" name="message" placeholder="How can we help?" rows="5" required></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-primary" id="send-btn">Send message</button>
+            <p class="muted small">This is a demo form — it won't actually send.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="newsletter-section">
+        <h3>Stay Updated</h3>
+        <p class="muted">Get the latest updates and tips directly to your inbox.</p>
+        <form class="newsletter-form" id="newsletter-form" onsubmit="return false;">
+          <div class="newsletter-input-group">
+            <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary" id="newsletter-submit">Subscribe</button>
+          </div>
+          <p class="newsletter-note muted small">We respect your privacy. Unsubscribe at any time.</p>
+        </form>
+      </div>
+      <div class="footer-inner">
+        <div>© <span id="year"></span> Saasly — Crafted with ❤️</div>
+        <div class="footer-links">
+          <a href="#privacy" class="muted">Privacy</a>
+          <a href="#terms" class="muted">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
