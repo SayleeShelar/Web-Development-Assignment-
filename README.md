@@ -42,11 +42,10 @@ A modern landing page for an analytics platform with interactive features.
 - JavaScript
 - Google Fonts
 
-## 🌐 Preview
+## Preview
 [View Live Website Here](https://sayleeshelar.github.io/Web-Development-Assignment-/)
 
   
- ## Preview
- https://sayleeshelar.github.io/Web-Development-Assignment-/
+
 
 
