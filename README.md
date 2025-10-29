@@ -1,6 +1,6 @@
-# Saasly - Landing Page
+# Saasly Website
 
-A modern landing page for an analytics platform with interactive features.
+A modern website for an analytics platform with interactive features.
 
 ## Features
 
@@ -17,8 +17,8 @@ A modern landing page for an analytics platform with interactive features.
 
 1. Clone the project:
    ```bash
-   git clone https://github.com/yourusername/saasly-landing-page.git
-   cd saasly-landing-page
+   git clone https://github.com/SayleeShelar/Web-Development-Assignment-.git
+   cd Web-Development-Assignment-
    ```
 
 2. Open the project:
@@ -44,8 +44,6 @@ A modern landing page for an analytics platform with interactive features.
 
 ## Preview
 [View Live Website Here](https://sayleeshelar.github.io/Web-Development-Assignment-/)
-
-  
 
 
 
