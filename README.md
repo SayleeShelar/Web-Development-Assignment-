@@ -41,6 +41,8 @@ A modern landing page for an analytics platform with interactive features.
 - CSS3
 - JavaScript
 - Google Fonts
-
+  
+ ## Preview
+ https://sayleeshelar.github.io/Web-Development-Assignment-/
 
 
